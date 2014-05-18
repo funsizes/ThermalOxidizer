@@ -1,0 +1,78 @@
+
+(X) 1: remind me
+   	to fix the + and - signs
+   	so that the fields only allow it for exponentials
+   	-90.4  <-invalid
+   	90e-4  <-valid
+
+    2: user regular expression for parsing files
+
+(X) 3: fix total percentage (adding over 100%)
+
+    4: add this -> read from input file
+
+(X) 5: make it so that the ExcelFiles/CHEMKED/screenshots folders 
+	get copied to the dist folder on build
+
+(X) 6: check clear table
+
+    7: consider an FAQ section for the manual
+
+(X) 8: program should NOT run without any intial input***
+
+    9: look into cleaning dist folders (study more Ant)
+
+(X) 10: FINISH WORKING ON MFR PERCENTAGE CALCULATIONS
+
+    11: fix "Model Run Output" button not opening correctly
+
+    12: ***VERY IMPORANT*** make sure all file dependencies are 
+	 taken care of (example: if temp-SOLTMP.txt is erased from 
+         CHEMKED folder, will the program run?)
+
+---------------------- luis ----------------------------------------
+(X) 1: add textfield (ambient temperature) for use in heat loss
+       equation
+    
+    2: add heat loss equations for doEnergyBalance 1-3
+
+    3: add heat loss due to evaporation for doEnergyBalance3
+
+-----(from meeting)---------------------------------------------------
+
+    7: look up how to make self-install and all that...
+
+(X) 8: adjusting fields/not letting focus switch when value over 1.0
+	(make less restrctive)
+
+(X) 9: make Enter key be able to move to next field (with tab as well)
+
+(X) 10: **adjust defualt dimensions (diameter for example)
+	-make sure all defualt values are correct
+
+(X) 11: take out "update all fields" button
+
+(X) 12: in output composition, show the preferred species  
+        in percentage, the rest in ppm
+		-add nitrogen(percentage)
+
+(X) 13: split the outputs (not just 1 ModelOuput.xls) so that the user
+        can have Excel open while running again
+
+(X) 14: let user look at output when running
+
+    15: be able to store the inputs for a specific output
+
+    16: add file management****** <-important
+
+(X) 17: make pollutant ouputs in ppm have 1 decimal digit
+
+(X) 18: add the other graph models (jtabbed pane with different graphs)
+
+    19: add temperatures to output table
+
+(X) 20: "TO Outlet Concentration"
+
+---------------------------------------------------------------------
+
+
